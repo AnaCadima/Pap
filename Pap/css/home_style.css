@@ -1,0 +1,54 @@
+* {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5;
+}
+
+html body #header {
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+
+
+
+html body #menu_standard ul {
+	width: 100%;
+	height: 3.5em;
+	padding:0%;
+	margin:0%;
+	background-color:#F8F8FF;
+	list-style:none;
+	box-shadow: 0.1em 0.1em 0.1em 0.1em #B5B5B5;
+	font-size: 1.2em;
+}
+
+html body #menu_standard ul li {
+
+	display: inline;
+}
+
+html body #menu_standard ul li a {
+	width: auto;
+	height: 3em;
+	padding: 0.2em 0.2em 0.2em 0.2em;
+	background-color:#F8F8FF;
+
+	display: inline-block;
+ 
+	/* visual do link */
+
+	color: #CDAD00;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+html body #menu_standard ul li a:hover {
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #CDAD00;
+}
